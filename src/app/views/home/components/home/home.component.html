@@ -1,0 +1,26 @@
+<p> <!--criamos a toolbar-->
+    <mat-toolbar color="primary"> 
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" (click)="funcaoTeste()">
+        <mat-icon >menu</mat-icon>
+      </button>
+      <span>SEMINFO - Angular Material</span>
+      <span class="example-spacer"></span>
+      <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+        <mat-icon>home</mat-icon>
+      </button>
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+        <mat-icon>person</mat-icon>
+      </button>
+    </mat-toolbar>
+</p>
+
+<mat-sidenav-container class="example-container">
+    <mat-sidenav opened mode="side" class="sidenav">
+        <button mat-raised-button color="accent" class="button" (click)="navigateTo('home')">Home</button>
+        <button mat-raised-button color="accent" class="button" (click)="navigateTo('tabela')">Tabela</button>
+    </mat-sidenav>
+    <mat-sidenav opened mode="side" position="end" class="endnav"></mat-sidenav>
+    
+    <router-outlet></router-outlet>
+
+</mat-sidenav-container>

@@ -1,0 +1,22 @@
+.container{
+    width: 100%;
+    height: auto;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.row {
+    width: 80%;
+}
+.form{
+    width: 100%;
+}
+.button {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.btn {
+    width: 30%;
+}

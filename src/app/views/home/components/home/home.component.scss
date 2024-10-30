@@ -1,0 +1,21 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+.example-container {
+    position: absolute;
+    top: 65px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.sidenav, .endnav{
+    width: 300px;
+}
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 30px auto;
+}
